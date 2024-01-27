@@ -1,0 +1,236 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+   
+    margin: right 50px; 
+    margin-top: 0px;
+}
+nav a.home{
+    float: left;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid white;
+    padding: 8px;
+    margin: 5px;
+}
+nav a:hover{
+    background-color: teal;
+    color:black;
+}
+.login{
+    border: 1px solid red;
+    justify-content: center; 
+    align-items: center; 
+    background-color: beige;
+    margin-top: 60px;
+    margin-right: 20px;
+    padding: 30px;
+    height: 20em;
+    width: 200px;
+}
+.login h2{
+text-align: center;
+}
+#btn{
+    width: 100%;
+    background-color: dodgerblue;
+    border: none;
+    height: 1.5em;
+    color:white;
+} 
+
+     ol {
+        list-style-type: decimal; 
+        font-family: 'Arial', sans-serif; 
+        font-size: 16px; 
+        color: #ded1d1; 
+        margin-left: 20px;
+        margin-top: 30px; 
+        justify-content: center;
+        padding: 20px;
+    }
+
+    
+    li {
+        margin-bottom: 10px; 
+    }
+.background-image{
+  margin-top: 50%;
+  margin-bottom: 50%; 
+  height: 200px;
+}
+body.home{
+    
+    margin: 0%;
+}
+body.home {
+        background-image: url(/images/booktable\ img.jpg);
+        background-size: 100% 100vh;
+        background-repeat: no-repeat;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .login {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .login h2 {
+        color: #333;
+    }
+
+    .login label {
+        margin: 10px 0;
+    }
+
+    .login input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+    }
+
+    .login button {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .login button:hover {
+        background-color: #45a049;
+    }
+
+    .login h5 {
+        margin-top: 10px;
+    }
+
+    .login a {
+        color: #007bff;
+        text-decoration: none;
+    }
+ 
+   
+.login {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login h2 {
+    color: #333;
+}
+
+.login label {
+    margin: 10px 0;
+}
+
+.login input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.login button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #45a049;
+}
+
+.login h5 {
+    margin-top: 10px;
+}
+
+.login a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+body.books{
+    background-image: url(..//images/bgimg.jpg);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    padding: 20px;
+    max-width: 400px; 
+    margin: auto; 
+    border-radius: 8px;
+} 
+
+    .carousel {
+        width: 100%; 
+        margin: auto;
+        overflow: hidden;
+      }
+  
+      .carousel img {
+        width: 100%; 
+        height: auto; 
+        display: block;
+}
+.books .book-list .book-item a img {
+    max-width: 150px;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+.books .book-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.books .book-item {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    flex: 1 1 calc(20% - 20px); 
+}
+
+.books .book-item:nth-child(-n+5) {
+    order: -1; 
+}
+
+.books .book-item img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.books .book-item p {
+    margin: 8px 0;
+}
+ 
+
+    
+
+
