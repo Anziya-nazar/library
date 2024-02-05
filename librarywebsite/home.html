@@ -11,22 +11,34 @@
  <form action="">  
     <div class="login">
        <h2>User login</h2>
-       <br><br>
-       <label for=username>Username<label>
-     <br><br>
-     <input type="text" placeholder="username">
-      <br><br>
-     <label for=password>Password</label>
-      <br>
-      <input type="password" placeholder="password">
-    <button>log In</button>
-      <br><br>
-      <h5>Need an account</h5>
+       <label for="username">Username:</label>
+    
+     <input type="text"  id="username" placeholder="username">
+      
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" oninput="checkPasswordStrength()" required>
+      <div id="passwordStrength"></div> 
+      <span id="errpwd"></span>
+
+      <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span id="err1"></span>
+
+      <label for="phoneNumber">Phone Number:</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" required>
+            <span id="err2"></span>
+
+
+    <button type="button" onclick="validateLoginForm()">log In</button>
+    
+      <h5>Need an account?</h5>
      <a href="sign up.html">Sign up</a>
 
 
 
     </form>
    </div>
+   <script src="basicvalidation.js"></script>
 </body>
 </html>

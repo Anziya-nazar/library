@@ -9,34 +9,45 @@
   </head>
   <body>
     <div class="page-container">
-      <form id="signupForm"  class="custom-form">
-          <label for="firstName">First Name:</label>
-          <input type="text" id="firstName" name="firstName" required>
-  
-          <label for="lastName">Last Name:</label>
-          <input type="text" id="lastName" name="lastName" required>
-  
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-  
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required>
-  
-          <label for="confirmPassword">Confirm Password:</label>
-          <input type="password" id="confirmPassword" name="confirmPassword" required>
-  
-          <label>
-              <input type="checkbox" id="agree" name="agree" required>
-                I agree to the terms and conditions
-          </label>
-  
-          <button type="button" onclick="validateForm()">Sign Up</button>
-      </form>
+        <form id="signupForm" class="custom-form">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
 
-     
-  </body>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span id="err1"></span>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" oninput="checkPasswordStrength()" required>
+            <div id="passwordStrength"></div> 
+            <span id="errpwd"></span>
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <span id="errpwd"></span>
+
+            
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" required>
+            <span id="err2"></span>
+
+            <label>
+                <input type="checkbox" id="agree" name="agree" required>
+                I agree to the terms and conditions
+            </label>
+
+            <button type="button" onclick="validateSignupForm()">Sign Up</button>
+      
+         
+      </form>
+    </div>
+</body>
+
   </html>
   
-     
+     <script src="basicvalidation.js"></script>
 </body>
 </html>
